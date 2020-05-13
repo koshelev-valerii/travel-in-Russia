@@ -1,0 +1,43 @@
+.cover-bg {
+    background: #2A2C2F;
+    opacity: 0.7;
+    max-width: 1184px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin: 0;
+    min-height: 594px;
+}
+
+@media screen and (max-width : 1024px) {
+    .cover-bg {
+        max-width: 1024px;
+        min-height: 562px;
+    }
+}
+@media screen and (max-width : 768px) {
+    .cover-bg {
+        max-width: 768px;
+        min-height: 500px;
+    }
+}
+@media screen and (max-width : 700px) {
+    .cover-bg {
+        min-height: 272px;
+        
+    }
+}
+@media screen and (max-width : 375px) {
+    .cover-bg {
+        max-width: 375px;
+        min-height: 272px;
+        
+    }
+}
+@media screen and (max-width : 320px) {
+    .cover-bg {
+        max-width: 320px;
+        min-height: 216px;
+    }
+}

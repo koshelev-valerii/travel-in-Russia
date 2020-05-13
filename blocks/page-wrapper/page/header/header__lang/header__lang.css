@@ -1,0 +1,31 @@
+@import url('./__lang/lang.css');
+@import url('./lang_current/lang_current.css');
+
+.header__lang {
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    right: 128px;
+    bottom: 5px;
+}
+
+@media screen and (max-width : 1024px) {
+    .header__lang {
+        right: 48px;
+    }
+}
+@media screen and (max-width : 768px) {
+    .header__lang {
+        right: 24px;
+    }
+}
+@media screen and (max-width : 375px) {
+    .header__lang{
+        right: 16px;
+    }
+}
+@media screen and (max-width : 320px) {
+    .header__lang {
+        right: 16px;
+    }
+}

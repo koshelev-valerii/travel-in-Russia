@@ -1,0 +1,40 @@
+.footer__link {
+    display: inline-block;
+    margin-right: 18px;
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.footer__link:hover {
+    opacity: 0.7;
+}
+@media screen and (max-width : 970px) {
+    .footer__link {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+@media screen and (max-width : 768px) {
+    .footer__link {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+@media screen and (max-width : 375px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 41px;
+    }
+}
+@media screen and (max-width : 320px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 41px;
+    }
+}

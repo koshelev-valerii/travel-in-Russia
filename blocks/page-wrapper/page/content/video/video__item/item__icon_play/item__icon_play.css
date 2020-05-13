@@ -1,0 +1,15 @@
+.item__icon_play {
+    max-width: 41px;
+    margin: 30px 0 54px 30px;
+}
+
+@media screen and (max-width : 768px) {
+    .item__icon_play {
+        margin: 24px 0 0 24px;
+    }
+}
+@media screen and (max-width : 375px) {
+    .item__icon_play {
+        margin: 16px 0 0 16px;
+    }
+}

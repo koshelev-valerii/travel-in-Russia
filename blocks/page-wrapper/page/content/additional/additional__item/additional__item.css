@@ -1,0 +1,14 @@
+@import url('./additional__item-img/additional__item-img.css');
+@import url('./additional__item-text/additional__item-text.css');
+@import url('./additional__item-heading/additional__item-heading.css');
+
+.additional__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    max-width: 284px;
+    height: 330px;
+    margin: 0;
+    z-index: 0;
+}

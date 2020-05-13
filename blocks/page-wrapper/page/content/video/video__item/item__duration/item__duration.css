@@ -1,0 +1,28 @@
+.item__duration {
+    max-width: 44px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    margin: 0 0 12px 30px;
+}
+
+@media screen and (max-width : 1024px) {
+    .item__duration {
+        margin: 0 0 12px 30px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .item__duration {
+        margin: 17px 0 8px 24px;
+    }
+    
+}
+@media screen and (max-width : 375px) {
+    .item__duration {
+        margin: 17px 0 0 16px;
+    }
+}

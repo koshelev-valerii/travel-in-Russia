@@ -1,0 +1,43 @@
+@import url('./__item/emblem__item.css');
+@import url('./__title/emblem__title.css');
+
+
+.emblem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1184px;
+    margin: 82px auto 85px;
+    width: 90%;
+}
+
+@media screen and (max-width : 1440px) {
+    .emblem {
+        display: none;
+    }
+}
+@media screen and (max-width : 1280px) {
+    .emblem {
+        display: none;
+    }
+}
+@media screen and (max-width : 1024px) {
+    .emblem {
+        display: none;
+    }
+}
+@media screen and (max-width : 768px) {
+    .emblem {
+        display: none;
+    }
+}
+@media screen and (max-width : 375px) {
+    .emblem {
+        display: none;
+    }
+}
+@media screen and (max-width : 320px) {
+    .emblem {
+        display: none;
+    }
+}

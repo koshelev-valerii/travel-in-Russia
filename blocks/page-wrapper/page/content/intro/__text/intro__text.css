@@ -1,0 +1,19 @@
+.intro__text {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 383px;
+    margin: 35px 0 0;
+    padding: 0;
+}
+
+@media screen and (max-width : 375px) {
+    .photo-grid__item {
+        max-width: 343px;
+        padding: 8px 0;
+    }
+}

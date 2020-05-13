@@ -1,0 +1,28 @@
+.comment__quote {
+    max-width: 382px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 42px auto 0;
+}
+
+@media screen and (max-width : 768px) {
+    .comment__quote {
+        order: 3;
+        padding-bottom: 47px;
+    }
+}
+@media screen and (max-width : 375px) {
+    .comment__quote {
+        order: 3;
+        padding-bottom: 47px;
+    }
+}
+@media screen and (max-width : 320px) {
+    .comment__quote {
+        order: 3;
+        padding-bottom: 47px;
+    }
+}

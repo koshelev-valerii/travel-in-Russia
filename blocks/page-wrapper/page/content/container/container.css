@@ -1,0 +1,39 @@
+@import url('../video/video__item/video__item.css');
+@import url('../additional/additional__item/additional__item.css');
+@import url('../comments/comment/comment.css');
+@import url('./comments-container/comments-container.css');
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1184px;
+    width: 100%;
+    margin: 0;
+}
+
+@media screen and (max-width : 1024px) {
+    .container {
+        max-width: 928px;
+        width: 100%;
+    }
+}
+@media screen and (max-width : 768px) {
+    .container {
+        max-width: 720px;
+
+    }
+}
+@media screen and (max-width : 500px) {
+    .container {
+        max-width: 370px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width : 375px) {
+    .container {
+        max-width: 343px;
+        flex-direction: column;
+    }
+}

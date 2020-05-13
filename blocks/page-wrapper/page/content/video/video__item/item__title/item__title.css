@@ -1,0 +1,31 @@
+.item__title {
+    max-width: 324px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 39px;
+    margin: 12px 0 0 30px;
+}
+
+@media screen and (max-width : 1024px) {
+    .item__title {
+        max-width: 322px;
+        margin: 12px 0 0 30px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .item__title {
+        max-width: 288px;
+        font-size: 24px;
+        line-height: 26px;
+        margin: 8px 0 0 24px;
+    }
+}
+@media screen and (max-width : 375px) {
+    .item__title {
+        max-width: 256px;
+        margin: 8px 0 0 16px;
+    }
+}

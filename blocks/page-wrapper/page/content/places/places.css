@@ -1,0 +1,37 @@
+@import url('./places__place/places__place.css');
+
+.places {
+    max-width: 984px;
+    margin: 102px auto 102px;
+    padding: 0 128px;
+}
+
+@media screen and (max-width : 1024px) {
+    .places {
+        padding: 0 48px;
+    }
+}
+@media screen and (max-width : 768px) {
+    .places {
+        padding: 0 24px;
+    }
+}
+@media screen and (max-width : 500px) {
+    .places {
+        
+        padding: 0;
+        margin: 64px auto;
+    }
+}
+@media screen and (max-width : 375px) {
+    .places {
+        padding: 0;
+        margin: 64px auto;
+    }
+}
+@media screen and (max-width : 320px) {
+    .places {
+        padding: 0;
+        margin: 64px auto;
+    }
+}

@@ -1,0 +1,6 @@
+@import url('./__text/barentsburg__text.css');
+@import url('./barentsburg__weblink/barentsburg__weblink.css');
+
+.barentsburg__description {
+    display: flex;
+}

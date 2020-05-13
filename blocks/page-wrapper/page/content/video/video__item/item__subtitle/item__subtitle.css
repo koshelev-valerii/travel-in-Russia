@@ -1,0 +1,20 @@
+.item__subtitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    margin: 18px 0 30px 30px;
+}
+
+@media screen and (max-width : 768px) {
+    .item__subtitle {
+        margin: 8px 0 30px 24px;
+    }
+}
+@media screen and (max-width : 375px) {
+    .item__subtitle {
+        max-width: 256px;
+        margin: 8px 0 16px 16px;
+    }
+}

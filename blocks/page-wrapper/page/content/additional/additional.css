@@ -1,0 +1,40 @@
+@import url('../content-title/content-title.css');
+@import url('../content-subtitle/content-subtitle.css');
+@import url('../container/container.css');
+
+
+.additional {
+    max-width: 1184px;
+    margin: auto;
+}
+
+@media screen and (max-width : 1440px) {
+    .additional {
+        display: none;
+    }
+}
+@media screen and (max-width : 1280px) {
+    .additional {
+        display: none;
+    }
+}
+@media screen and (max-width : 1024px) {
+    .additional {
+        display: none;
+    }
+}
+@media screen and (max-width : 768px) {
+    .additional {
+        display: none;
+    }
+}
+@media screen and (max-width : 375px) {
+    .additional {
+        display: none;
+    }
+}
+@media screen and (max-width : 320px) {
+    .additional {
+        display: none;
+    }
+}

@@ -1,0 +1,55 @@
+@import url('./places__image/places__image.css');
+@import url('./__paragraphs/places__paragraphs.css');
+@import url('./places__title/places__title.css');
+@import url('./places__website/places__website.css');
+
+.places__place {
+    display: grid;
+    grid-template-areas: "title url"  
+                         "image text";
+    position: relative;
+    grid-gap: 60px 40px;
+    margin: 72px auto 0;
+
+}
+
+.places__place:nth-child(1) {
+    margin: 0 auto;
+}
+
+@media screen and (max-width : 1024px) {
+    .places__place {
+        grid-gap: 40px 32px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .places__place {
+        grid-gap: 40px 28px;
+        max-width: 720px;
+    }
+}
+@media screen and (max-width : 500px) {
+    .places__place {
+        max-width: 375px;
+        grid-template-areas: "title"
+                             "image"
+                             "text";
+    }
+}
+@media screen and (max-width : 375px) {
+    .places__place {
+        max-width: 375px;
+        grid-template-areas: "title"
+                             "image"
+                             "text";
+    }
+}
+@media screen and (max-width : 320px) {
+    .places__place {
+        max-width: 320px;
+        grid-template-areas: "title"
+                             "image"
+                             "text";
+    }
+}
