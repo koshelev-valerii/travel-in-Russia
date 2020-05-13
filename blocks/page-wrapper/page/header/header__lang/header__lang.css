@@ -1,5 +1,5 @@
-@import url('./__lang/lang.css');
-@import url('./lang_current/lang_current.css');
+@import url(./__lang/lang.css);
+@import url(./lang_current/lang_current.css);
 
 .header__lang {
     display: flex;

@@ -1,8 +1,8 @@
-@import url('./item__icon_play/item__icon_play.css');
-@import url('./item__duration/item__duration.css');
-@import url('./item__title/item__title.css');
-@import url('./item__subtitle/item__subtitle.css');
-@import url('./__item-bg/item__item-bg.css');
+@import url(./item__icon_play/item__icon_play.css);
+@import url(./item__duration/item__duration.css);
+@import url(./item__title/item__title.css);
+@import url(./item__subtitle/item__subtitle.css);
+@import url(./__item-bg/item__item-bg.css);
 
 .video__item {
     position: relative;

@@ -1,5 +1,5 @@
-@import url('./intro__description/intro__description.css');
-@import url('./intro__text-author/intro__text-author.css');
+@import url(./intro__description/intro__description.css);
+@import url(./intro__text-author/intro__text-author.css);
 
 .intro__content-raw {
     display: flex;

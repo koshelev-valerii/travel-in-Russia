@@ -1,7 +1,7 @@
-@import url('../video/video__item/video__item.css');
-@import url('../additional/additional__item/additional__item.css');
-@import url('../comments/comment/comment.css');
-@import url('./comments-container/comments-container.css');
+@import url(../video/video__item/video__item.css);
+@import url(../additional/additional__item/additional__item.css);
+@import url(../comments/comment/comment.css);
+@import url(./comments-container/comments-container.css);
 
 
 .container {

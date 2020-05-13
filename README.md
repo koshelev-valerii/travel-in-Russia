@@ -14,7 +14,7 @@
 ## Technologies in the project
 -------------------------------
 
-- layout `HTML`,`CSS`, `Flexbox`;
+- layout `HTML`,`CSS`, `Flexbox`, `Grid`;
 - the structure of the project `BEM`;
 - use of semantic container tags(header, footer, section etc.);
 - the project uses the `@media` Directive for page adaptability;

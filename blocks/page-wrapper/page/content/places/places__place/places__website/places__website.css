@@ -1,5 +1,5 @@
-@import url('./places__url-heading/places__url-heading.css');
-@import url('./places__url/places__url.css');
+@import url(./places__url-heading/places__url-heading.css);
+@import url(./places__url/places__url.css);
 
 .places__website {
     display: flex;
