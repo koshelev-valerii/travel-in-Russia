@@ -8,7 +8,9 @@
 @import url(./photo-grid/photo-grid.css);
 @import url(./places/places.css);
 @import url(./video/video.css);
-
+@import url(./container/container.css);
+@import url(./content-subtitle/content-subtitle.css);
+@import url(./content-title/content-title.css);
 
 .content {
     margin: 0 auto;
