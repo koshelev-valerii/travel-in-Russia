@@ -9,7 +9,7 @@
 ## Description
 -------------------------------
 
-### Adaptive landing - with a story about the country. The main goal of this training landing page is adaptive layout, as well as mastering the structure of `BEM`, `flex` and `grid ' technologies, and working with animation. Adapted to all popular screen resolutions: used "rubber" layout and @medi
+### Adaptive landing - with a story about the country. The main goal of this training landing page is adaptive layout, as well as mastering the structure of `BEM`, `flex` and `grid` technologies, and working with animation. Adapted to all popular screen resolutions: used "rubber" layout and @media queries.
 
 ## Technologies in the project
 -------------------------------
@@ -17,7 +17,6 @@
 - layout `HTML`,`CSS`, `Flexbox`;
 - the structure of the project `BEM`;
 - use of semantic container tags(header, footer, section etc.);
-- working with the `YouTube API`;
 - the project uses the `@media` Directive for page adaptability;
 
 
