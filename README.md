@@ -23,4 +23,4 @@
 ## Where you can find him?
 -------------------------------
 
-### [Link to the project](https://koshelev-valerii.github.io/travel-in-Russia/) on gh-pages
+### [Link to the project](https://travel-in-russia-five.now.sh/)
